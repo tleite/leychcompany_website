@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="https://use.typekit.net/oib0udn.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="js/knockout.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+  
+  <video id="banner" loop src="/media/banner.mov" autoplay>
+  </video>
+  <div id="navigation">
+    <ul data-bind="foreach: menuItems">
+        <li data-bind="css: { selected: selected() }, click: selectMenuItem"><span data-bind="text: name"></span></li>        
+    </ul>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

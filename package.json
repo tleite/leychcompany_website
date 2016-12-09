@@ -1,0 +1,9 @@
+{
+  "name": "leych",
+  "version": "2.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch-css": "node-sass -w styles -o styles"
+  }
+}
